@@ -4,6 +4,7 @@ import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {firebase} from '../../firebase/config';
 import styles from './styles';
 
+//https://www.freecodecamp.org/news/react-native-firebase-tutorial/
 export default function RegistrationScreen({navigation}) {
   const [fullName, setFullName] = useState('');
   const [email, setEmail] = useState('');
